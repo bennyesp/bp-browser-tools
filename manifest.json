@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name":"BP Browser Tools",
+    "version": "1.1.0",
+    "description":"Pembersih browser dan galeri karakter untuk dicopy",
+    "permissions": ["browsingData", "clipboardWrite"],
+    "action":{
+        "default_popup":"index.html"
+    },
+    "commands": {
+        "_execute_action": {
+        "suggested_key": {
+            "default": "Ctrl+Shift+Y",
+            "mac": "Command+Shift+Y"
+        },
+        "description": "Open extension popup"
+        }
+    }
+}
